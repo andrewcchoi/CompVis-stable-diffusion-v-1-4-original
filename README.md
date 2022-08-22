@@ -18,8 +18,10 @@ extra_gated_fields:
  I have read the License and agree with its terms: checkbox
 ---
 
-# Stable Diffusion v1 Model Card
-This model card focuses on the model associated with the Stable Diffusion v1-3 model, available [here](https://github.com/CompVis/stable-diffusion).
+Stable Diffusion is a latent text-to-image diffusion model capable of generating photo-realistic images given any text input.
+
+The **Stable-Diffusion-v-1-4** checkpoint was initialized with the weights of the [Stable-Diffusion-v-1-2](https://steps/huggingface.co/CompVis/stable-diffusion-v-1-2-original) 
+checkpoint and subsequently fine-tuned on 225k steps at resolution 512x512 on "laion-aesthetics v2 5+" and 10% dropping of the text-conditioning to improve [classifier-free guidance sampling](https://arxiv.org/abs/2207.12598).
 
 ## Model Details
 - **Developed by:** Robin Rombach, Patrick Esser
