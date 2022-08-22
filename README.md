@@ -3,6 +3,7 @@ license: other
 tags:
 - stable-diffusion
 - text-to-image
+library_name: "stable-diffusion"
 ---
 
 # Stable Diffusion v1 Model Card
