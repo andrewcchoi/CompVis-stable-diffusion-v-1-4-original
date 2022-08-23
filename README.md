@@ -23,6 +23,12 @@ Stable Diffusion is a latent text-to-image diffusion model capable of generating
 The **Stable-Diffusion-v-1-4** checkpoint was initialized with the weights of the [Stable-Diffusion-v-1-2](https://steps/huggingface.co/CompVis/stable-diffusion-v-1-2-original) 
 checkpoint and subsequently fine-tuned on 225k steps at resolution 512x512 on "laion-aesthetics v2 5+" and 10% dropping of the text-conditioning to improve [classifier-free guidance sampling](https://arxiv.org/abs/2207.12598).
 
+#### Download the weights
+- [sd-v1-4.ckpt](https://huggingface.co/CompVis/stable-diffusion-v-1-4-original/resolve/main/sd-v1-4.ckpt)
+- [sd-v1-4-full-ema.ckpt](https://huggingface.co/CompVis/stable-diffusion-v-1-4-original/resolve/main/sd-v1-4-full-ema.ckpt)
+
+This weights are intended to be used with the original [CompVis Stable Diffusion codebase](https://github.com/CompVis/stable-diffusion). If you are looking for the model to use with the D🧨iffusers library, [come here](https://huggingface.co/CompVis/stable-diffusion-v1-4).
+
 ## Model Details
 - **Developed by:** Robin Rombach, Patrick Esser
 - **Model type:** Diffusion-based text-to-image generation model
