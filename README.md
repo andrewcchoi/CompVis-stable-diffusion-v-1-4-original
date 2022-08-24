@@ -5,14 +5,16 @@ tags:
 - text-to-image
 library_name: "stable-diffusion"
 extra_gated_prompt: |-
-  One more step before getting this model
-  This model is open access and available to all, but it has the CreativeML OpenRAIL-M license you have to be aware of before using it - don't worry you are just one click away! 
-  By clicking on "Access repository" below, you accept that your *contact information* (email address and username) can be shared with the model authors as well.
-  Summary of the CreativeML OpenRAIL License: 
+  One more step before getting this model.
+  This model is open access and available to all, with a CreativeML OpenRAIL-M license further specifying rights and usage.
+  The CreativeML OpenRAIL License specifies: 
+
   1. You can't use the model to deliberately produce nor share illegal or harmful outputs or content 
-  2. We claim no rights on the outputs you generate, you are free to use them and are accountable for their use which should not go against the provisions set in the license
+  2. CompVis claims no rights on the outputs you generate, you are free to use them and are accountable for their use which should not go against the provisions set in the license
   3. You may re-distribute the weights and use the model commercially and/or as a service. If you do, please be aware you have to include the same use restrictions as the ones in the license and share a copy of the CreativeML OpenRAIL-M to all your users (please read the license entirely and carefully)
   Please read the full license here: https://huggingface.co/spaces/CompVis/stable-diffusion-license
+  
+  By clicking on "Access repository" below, you accept that your *contact information* (email address and username) can be shared with the model authors as well.
     
 extra_gated_fields:
  I have read the License and agree with its terms: checkbox
