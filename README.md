@@ -4,6 +4,7 @@ tags:
 - stable-diffusion
 - text-to-image
 library_name: "stable-diffusion"
+inference: false
 extra_gated_prompt: |-
   One more step before getting this model.
   This model is open access and available to all, with a CreativeML OpenRAIL-M license further specifying rights and usage.
